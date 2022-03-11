@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-family: arial;
+    color: #09c5d4;
+    font-size: 22px;
+}
+
+h2 {
+
+    font: arial;
+    color: #09c5d4;
+}
+
+h3 {
+
+    font: arial;
+    color: #2b2b2b;
+}
+
+p {
+    font: arial;
+    color: #09c5d4;
+}
+
+button {
+    
+    font: arial;
+    background-color: #09c5d4;
+    font-size: 10px;
+    color: #2b2b2b;
+}
+
+a {
+    font: arial;
+    color: #09c5d4;
+}
+
+footer {
+    font: arial;
+    background-color: #2b2b2b;
+    color: #09c5d4;
+    height: 50px;    
+    text-align: center;
+    line-height: 50px;
+    flex-shrink: 0;
+    padding: 30 px;
+}

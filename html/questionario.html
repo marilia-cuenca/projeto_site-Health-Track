@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+
+        <title>Health Track | Questionário</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand navbar-light" style="background-color: #09c5d4;">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Página inicial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Plano Premium</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Quem somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fale conosco</a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <a href="index.html" target="_blank">
+                <img class="rounded mx-auto d-block" style="width: 300px;" src="Images/healthtracklogo.PNG"
+                    class="img-fluid" alt="Logo do Health Track">
+            </a>
+            <p class="rounded mx-auto d-block lead">Complete o questionário para personalizar o seu progresso</p>
+
+            <form class="row mb-3">
+                <div class="col-md-6">
+                    <label for="inputFrequencia" class="form-label">Quantas vezes você pratica atividade física?</label>
+                    <select id="inputFrequencia" class="form-select">
+                        <option selected>Escolha</option>
+                        <option>1x por semana</option>
+                        <option>2x por semana</option>
+                        <option>3x por semana</option>
+                        <option>4x por semana ou mais</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputFrequencia" class="form-label">Qual é a sua disponibilidade para praticar atividades
+                        físicas e meditação?</label>
+                    <select id="inputFrequencia" class="form-select">
+                        <option selected>Escolha</option>
+                        <option>Menos de 30 minutos por dia</option>
+                        <option>Mais de 30 minutos por dia</option>
+                        <option>Mais de uma hora por dia</option>
+                    </select>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="inputMente" class="form-label">Você tem ansiedade, depressão ou estresse?</label>
+                    <div class="col-sm-10 offset-sm-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">
+                                Ansiedade
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-sm-10 offset-sm-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">
+                                Depressão
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-sm-10 offset-sm-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">
+                                Estresse
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-sm-10 offset-sm-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">
+                                Não tenho
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="inputPeso" class="form-label">Informe seu peso atual</label>
+                    <input type="text" class="form-control" id="inputPeso">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPeso" class="form-label">Informe sua altura</label>
+                    <input type="text" class="form-control" id="inputPeso">
+                </div>
+                <div class="d-grid gap-2 d-md-block">
+                    <a type="submit" class="button btn btn-outline-info btn-lg" href="dashboard.html"
+                        role="button">ATUALIZAR</a>
+                    <a type="submit" class="button btn btn-outline-info btn-lg" href="dashboard.html"
+                        role="button">VOLTAR</a>
+                </div>
+
+            </form>
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+
+        <div id="footer">
+            <footer class="footer navbar-fixed-bottom">
+                Criado por Marília Pereira Calegari Cuenca - RM 92388
+            </footer>
+        </div>
+    </body>
+
+</html>
